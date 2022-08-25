@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section>
+
+        <div class="container mt-5 w-50">
+
+         <div class="text-center py-5 ms-5 me-5">
+                <h2 class="text-info mb-4">Smart Login System</h2>
+             
+                <div class="mb-3">
+                    <input type="text" name="" id="name" class="form-control text-white bg-transparent" placeholder="Enter your name">
+                    <p id="userNameAlert" class="d-none text-danger">Please Starting With Captail Letter Include At Least 3 Letters </p>
+                </div>
+                <div class="mb-3">
+                    <input type="email" name="" id="email" class="form-control text-white bg-transparent" placeholder="Enter your email">
+                    <p id="userEmailAlert" class="d-none text-danger">Please Enter Email like "mail@gmail.com" </p>
+                </div>
+             
+                <div class="mb-5">
+                    <input type="password" name="" id="pass" class="form-control text-white bg-transparent" placeholder="Enter your password">
+                    <p id="userPassAlert" class="d-none text-danger">Please Enter Strong Password containing Letters And Numbers </p>
+
+                </div>
+                <p class="text-success d-none" id="msgSuccess">Success</p>
+                <p class="text-danger d-none mb-2" id="msgAgain">Please Try again</p>
+                <p class="text-danger d-none mb-2" id="msgExist">This Account is Already Exist</p>
+                <button class="btn btn-outline-info w-100 mb-3" id="signUp">Sign Up</button>
+
+                <p class="text-white">You Have an account? <a href="index.html" class="text-white text-decoration-none">Sign In</a></p>
+                <a href="index.html" class="d-none btn btn-outline-success text-white w-25 m-auto" id="signIn">signin</a>
+
+
+         </div>
+
+        </div>
+
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

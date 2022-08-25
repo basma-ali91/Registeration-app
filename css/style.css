@@ -1,0 +1,24 @@
+body , .container{
+    background-color: #24353f;
+}
+section .container{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    height: 85vh;
+}
+input::placeholder{
+    color:  rgb(182, 182, 182) !important;
+}
+.btn:hover{
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+.navbar
+{
+    background-color: #24353f !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.demo{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
