@@ -25,7 +25,12 @@ a:hover{
 }
 .demo{
     box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 75%;
+    padding: 3rem;
 }
+#signIn{
+    width: 25%;
+   }
 
 @media screen and (max-width:592px) {
     .indexhome ,.signhome{
@@ -33,5 +38,12 @@ a:hover{
     }
    p{
     font-size: .8rem;
+   }
+   #signIn{
+    width: 100%;
+   }
+   .demo{
+    width: 85%;
+    padding: 1.5rem;
    }
 }
