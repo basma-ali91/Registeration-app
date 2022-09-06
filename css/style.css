@@ -1,6 +1,10 @@
 body , .container{
     background-color: #24353f;
 }
+.indexhome ,.signhome{
+    width:50%
+}
+
 section .container{
     box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
     height: 85vh;
@@ -21,4 +25,13 @@ a:hover{
 }
 .demo{
     box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width:592px) {
+    .indexhome ,.signhome{
+        width:90% ;
+    }
+   p{
+    font-size: .8rem;
+   }
 }
